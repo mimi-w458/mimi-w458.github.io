@@ -33,9 +33,10 @@ nav a:hover{
 
 .move{
     position: absolute;
-    
+    top: 200px;  
+    left: 200px; 
     width: 50vw;
-    height: 100vw;
+    height: 75vw;
 }
 
 .hero{
