@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    height: 80px;
+    background: #b8f3fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px)/2);
+}
+
+.logo{
+    padding: 0 2rem;
+    width: 200px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: -50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero{
+    background: white;
+}
+
+
+.form-container {
+    width: 40%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 20px;
+}

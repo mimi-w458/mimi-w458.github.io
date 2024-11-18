@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    height: 80px;
+    background: #4179a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px)/2);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: "Brush Script MT", cursive;
+    font-size: x-large;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+nav a:hover{
+    color: #dcedfa;
+}
+.logo {
+    width: 10vw; 
+    max-width: 75px;
+    height: auto;
+}
+.hero{
+    background: #dcedfa;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw-1300px)/2);
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2rem;
+}
+
+.column-left h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.column-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2rem;
+}
+
+.column-about h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-about p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: black;
+    cursor:pointer;
+}
+
+button:hover{
+    background: black;
+    color: blue;
+}
+
+.column-right{
+    padding: 0rem 2rem;
+    justify-content: right;
+    display: flex;
+    align-items: right;
+
+}
+
+.hero-image{
+    width: 550px;
+    height: 550px;
+    margin-top: -600px;
+    margin-left: 200px;
+}
+
+.contact-intro {
+    background-color: #dcedfa;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-aligns text within the container */
+    margin-top: 20px; /* Optional: adds spacing from the top */
+}
+
+.contact-intro h1 {
+    font-size: 5rem;
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+.contact-intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contact-info{
+    background-color: #b9d7ed;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Adds space below the heading */
+    font-family: "Brush Script MT", cursive;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    height: 100vh;
+}
+
+.left-column {
+    background-color: #b9d7ed;
+    padding: 20px;
+}
+
+.left-column h1 {
+    font-size: 5rem;
+    font-family: "Brush Script MT", cursive;
+}
+
+
+.right-column {
+    background-color: #679bc2;
+    padding: 20px;
+}
+
+.right-column h1 {
+    font-size: 5rem;
+    font-family: "Brush Script MT", cursive;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label, 
+.contact-form input, 
+.contact-form textarea, 
+.contact-form button {
+    display: block;
+    width: 100%;
+}
+
+.form-container {
+    width: 40%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 20px;
+}
