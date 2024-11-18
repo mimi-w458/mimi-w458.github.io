@@ -30,6 +30,12 @@ nav a:hover{
     max-width: 75px;
     height: auto;
 }
+
+.move{
+    position: absolute;
+    top: 100px;  
+    left: 200px; 
+}
 .hero{
     background: #dcedfa;
 }
