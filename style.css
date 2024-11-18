@@ -170,3 +170,21 @@ body, html {
     display: block;
     width: 100%;
 }
+
+.form-container {
+    width: 40%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 20px;
+}
