@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #b9d7ed;
+
 }
 
 nav{
@@ -106,7 +106,7 @@ button:hover{
 .hero-image{
     width: 550px;
     height: 550px;
-    margin-top: -200px;
+    margin-top: -600px;
     margin-left: 200px;
 }
 
@@ -131,7 +131,7 @@ button:hover{
 }
 
 .contact-info{
-    background-color: #ffffff;
+    background-color: #b9d7ed;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -159,7 +159,7 @@ body, html {
 }
 
 .left-column {
-    background-color: #dcedfa;
+    background-color: #b9d7ed;
     padding: 20px;
 }
 
