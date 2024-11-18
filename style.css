@@ -171,20 +171,20 @@ body, html {
     width: 100%;
 }
 
-.form-container {
+.contact-container {
     width: 40%;
 }
 
-.form-container form {
+.contact-container form {
     display: flex;
     flex-direction: column;
 }
 
-.form-container label {
+.contact-container label {
     margin-bottom: 10px;
 }
 
-.form-container input {
+.contact-container input {
     padding: 8px;
     margin-bottom: 20px;
 }
