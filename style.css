@@ -32,9 +32,9 @@ nav a:hover{
 }
 .stress {
     object-position: top right;
-    width: 200px
-    height: 200px
-    padding:20px
+    width: 200px;
+    height: 200px;
+    padding:20px;
 }
 
 .move{
