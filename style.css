@@ -30,6 +30,12 @@ nav a:hover{
     max-width: 75px;
     height: auto;
 }
+.stress {
+    object-position: top right;
+    width: 200px
+    height: 200px
+    padding:20px
+}
 
 .move{
     position: absolute;
