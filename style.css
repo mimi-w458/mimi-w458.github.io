@@ -128,7 +128,7 @@ button:hover{
 }
 
 .contact-intro {
-    background-color: #ffffff;
+    background-color: #dcedfa;
     display: flex;
     flex-direction: column; /* Stack items vertically */
     justify-content: center;
